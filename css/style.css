@@ -1,0 +1,407 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+  min-width: 976px;
+}
+
+
+header{
+  width: 100%;
+  height: 219px;
+  border-top: 3px solid blue;
+}
+.logo{
+  float: left;
+  width: 30%;
+}
+.view{
+  float: left;
+  width: 70%;
+}
+.logo img{
+  width: 100%;
+  height: 219px;
+}
+.view img{
+  width: 100%;
+  height: 219px;
+}
+nav{
+  width: 100%;
+  clear: both;
+}
+nav ul{
+  float: left;
+  width: 100%;
+  background-color:	#0066CC;
+  height: 25px;
+}
+nav ul li{
+  float: left;
+  margin-left: 11px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 14px;
+    list-style: none;
+}
+article{
+  width: 100%;
+  height: 250px;
+  clear: both;
+  margin-top: 40px;
+}
+.rotation{
+  width: 33%;
+  height: 290px;
+  float: left;
+  margin: 0 auto 10px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+#wrap   li{
+  float: left;
+  list-style: none;
+}
+#tips li {
+  border: 1px solid #f60;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  list-style: none;
+}
+.active {
+  background: #f60;
+}
+#wrap  img {
+  vertical-align: top;
+  width: 322px;
+  height: 250px;
+}
+
+
+
+
+
+
+
+
+#content {
+  width: 2400px;
+  position: absolute;
+  left: -1200px;
+}
+#content li {
+  float: left;
+  list-style: none;
+}
+#tips {
+  position: absolute;
+  right: 0px;
+  bottom: 40px;
+}
+#wrap p{
+  text-align: center;
+  font-weight: bold;
+}
+.news{
+  width: 40%;
+  height: 290px;
+  float: left;
+  margin: 0  10px 0 25px;
+  font-size: 12px;
+}
+.news_ld,.school_info_dynamic,.video_view_info{
+  float: left;
+  display: block;
+  font-weight: bold;
+}
+.more{
+  float: right;
+  display: block;
+  margin-right: 20px;
+}
+.more a{
+  color: black;
+}
+.news ul p{
+  float: right;
+}
+.news ul{
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+.slide{
+  width: 23%;
+  height: 270px;
+  float: left;
+  border: 1px solid blue;
+}
+.slide_head1{
+  width: 15%;
+  height: 30px;
+  background-image: url('../img/06.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 30px;
+  float: left;
+}
+.slide_head2{
+  width: 85%;
+  height: 30px;
+  background-image: url("../img/06f.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 30px;
+  float: left;
+}
+.slide_head2 p{
+  font-size: 12px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  float: left;
+}
+.slide_head2 img{
+  float: right;
+  margin-top: 8px;
+  height: 10px;
+  margin-right: 4px;
+}
+.list{
+  clear: both;
+  font-size: 12px;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px;
+
+}
+.dynamic{
+  clear: both;
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+
+}
+.info{
+  width: 76%;
+  height: 350px;
+  float: left;
+  margin-right: 5px;
+}
+.info_pic{
+  width: 100%;
+  height: 100px;
+}
+.info_pic img{
+  width: 100%;
+  height: 100px;
+}
+.info_email{
+  width: 100%;
+  height: 110px;
+  margin: 5px 0px;
+}
+.info_sourse{
+  width: 100%;
+  height: 127px;
+}
+.login{
+  width: 42%;
+  height: 110px;
+  float: left;
+  border: 1px solid gray;
+}
+.login_head{
+  width: 100%;
+  height: 40px;
+  background-image: url("../img/07b.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 40px;
+
+}
+.login_input{
+  width: 80%;
+  float: left;
+}
+.login_input_select{
+  width: 100%;
+  margin: 2px 0px 5px 5px;
+  clear: both;
+}
+.input_box{
+  width: 50%;
+  float: left;
+}
+.input_box input ,select{
+  width: 100%;
+  margin: 2px 0 5px 2px;
+}
+.login_button{
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 4px;
+}
+
+
+
+
+
+.school_info{
+  width: 53%;
+  height: 110px;
+  float: left;
+  font-size: 12px;
+  /*padding: 5px;*/
+  margin: 0  5px 0 25px;
+
+}
+.school_info ul,.video_view ul{
+  clear: both;
+}
+.school_info ul p,.video_view ul p{
+  float: right;
+}
+.school_sourse{
+  width: 42%;
+  height: 125px;
+  float: left;
+  border: 1px solid gray;
+  margin: 5px 0px;
+}
+.school_sourse_head{
+  width: 100%;
+  height: 40px;
+  background-image: url("../img/07e.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 40px;
+}
+.school_sourse_info{
+  font-size: 12px;
+}
+.school_sourse_info li{
+  float: left;
+  list-style: none;
+  width: 75px;
+}
+.video_view{
+  width: 53%;
+  height: 120px;
+  float: left;
+  font-size: 12px;
+  margin: 10px 0px 0 25px;
+}
+
+
+
+
+.pic{
+  width: 23%;
+  height: 235px;
+  float: left;
+}
+.topic{
+  width: 100%;
+  height: 220px;
+  border: 1px solid blue;
+}
+.topic_head1{
+  width: 15%;
+  height: 30px;
+  background-image: url('../img/06.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 30px;
+  float: left;
+}
+.topic_head2{
+  width: 85%;
+  height: 30px;
+  background-image: url("../img/06f.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 30px;
+  float: left;
+}
+.topic_head2 p{
+  font-size: 12px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  float: left;
+}
+.topic img{
+  width: 95%;
+  height: 185px;
+  margin: 0 auto;
+  display: block;
+}
+.qr_code{
+  width: 100%;
+  height: 127px;
+  margin-top: 2px;
+}
+.qr_code img{
+  width: 95%;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+
+}
+.aisle{
+  width: 100%;
+  height: 30px;
+  background-image: url("../img/09.gif");
+  background-repeat: no-repeat;
+  margin: 10px 0;
+}
+.aile_select{
+  width: 90%;
+  height: 30px;
+  margin-left: 90px;
+  padding: 2px;
+}
+.aile_select select{
+  width: 130px;
+  margin-left: 10px;
+}
+footer{
+  width: 100%;
+  border-top: 1px double blue;
+  margin-top: 5px;
+}
+.copyright {
+    width: 100%;
+    background-color: 		#E0E0E0;
+}
+.copyright p{
+  text-align: center;
+  font-size: 13px;
+  padding: 2px;
+}
+.copyright p a{
+  color: black;
+}
+.foot_pic{
+  text-align: center;
+}
